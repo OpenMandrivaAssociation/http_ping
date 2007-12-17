@@ -9,7 +9,6 @@ Source0:	http://www.acme.com/software/http_ping/%{name}_29jun2005.tar.gz
 BuildRequires:	openssl-devel
 BuildRequires:	zlib-devel
 BuildRequires:	pkgconfig
-BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-root
 
 %description
 http_ping runs an HTTP fetch every few seconds, timing how long it takes.
