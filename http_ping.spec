@@ -1,7 +1,7 @@
 Summary:	HTTP latency measuring utility
 Name:		http_ping
 Version:	20050629
-Release:	%mkrel 1
+Release:	%mkrel 2
 Group:		System/Base
 License:	BSD
 URL:		http://www.acme.com/software/http_ping/
@@ -9,7 +9,7 @@ Source0:	http://www.acme.com/software/http_ping/%{name}_29jun2005.tar.gz
 BuildRequires:	openssl-devel
 BuildRequires:	zlib-devel
 BuildRequires:	pkgconfig
-BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-root
+BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
 http_ping runs an HTTP fetch every few seconds, timing how long it takes.
