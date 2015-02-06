@@ -1,7 +1,7 @@
 Summary:	HTTP latency measuring utility
 Name:		http_ping
 Version:	20050629
-Release:	3
+Release:	4
 Group:		System/Base
 License:	BSD
 URL:		http://www.acme.com/software/http_ping/
