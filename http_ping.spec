@@ -4,7 +4,7 @@ Version:	20050629
 Release:	4
 Group:		System/Base
 License:	BSD
-URL:		http://www.acme.com/software/http_ping/
+URL:		https://www.acme.com/software/http_ping/
 Source0:	http://www.acme.com/software/http_ping/%{name}_29jun2005.tar.gz
 BuildRequires:	pkgconfig(openssl)
 BuildRequires:	pkgconfig(zlib)
