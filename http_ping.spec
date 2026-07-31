@@ -1,7 +1,7 @@
 Summary:	HTTP latency measuring utility
 Name:		http_ping
-Version:	20050629
-Release:	4
+Version:	20160309
+Release:	1
 Group:		System/Base
 License:	BSD
 URL:		https://www.acme.com/software/http_ping/
@@ -16,7 +16,7 @@ http_ping runs an HTTP fetch every few seconds, timing how long it takes.
 
 %prep
 
-%setup -q -n %{name}
+%setup -q -n http_ping
 f=http_ping.1 ; iconv -f iso-8859-1 -t utf-8 $f > $f.utf8 ; mv $f.utf8 $f
 
 %build
